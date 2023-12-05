@@ -19,15 +19,14 @@ body{
 /*Main*/
 
 .container{
-    border: 1px dashed black;
     max-width: 1080px;
     margin: 0 auto;
     padding: 0 2rem;
 
 }
 
-h1,
-p{
+.container > h1,
+.container > p{
     text-align: center;
     margin: 2rem 0;
 }
@@ -40,18 +39,17 @@ h1{
     float: left;
     width: calc(100% / 3);
     padding: 2rem;
-    border: 2px solid red;
 }
 
 .card img{
     float: left;  
-    width: 70px; 
+    width: 100px; 
+    margin-right: 6px;
 }
 
 .card{
   background-color: hsl(246.67deg 24.32% 7.25%);
-
-
+    height: 100%;
 }
 
 .card h2,
@@ -61,4 +59,12 @@ h1{
 
 .card a{
     color:hsl(196.39deg 75.93% 47.25%)
+}
+
+.details{
+    padding: 16.5px;
+}
+
+.row{
+    margin: 0 -24px;
 }
