@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;;
+}
+
+/*Utils*/
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/*Main*/
+
+.container{
+    border: 1px dashed black;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+}
+
+h1,
+p{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+h1{
+    color: hsl(339.33deg 77.59% 54.51%);
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    padding: 2rem;
+    border: 2px solid red;
+}
+
+.card img{
+    float: left;  
+    width: 70px; 
+}
+
+.card{
+  background-color: hsl(246.67deg 24.32% 7.25%);
+
+
+}
+
+.card h2,
+.card p{
+    color:white;
+}
+
+.card a{
+    color:hsl(196.39deg 75.93% 47.25%)
+}
